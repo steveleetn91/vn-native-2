@@ -18,13 +18,17 @@
   },
   "dependencies": {
     "cli": "^1.0.1",
+    "cordova-ios": "^5.1.1",
     "node-cmd": "^3.0.0",
-    "sockjs-client": "^1.4.0"
+    "sockjs-client": "^1.4.0",
+    "vn-native-js": "^1.0.6"
   },
   "cordova": {
     "plugins": {
       "cordova-plugin-whitelist": {}
     },
-    "platforms": []
+    "platforms": [
+      "ios"
+    ]
   }
 }
