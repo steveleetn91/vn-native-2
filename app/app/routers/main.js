@@ -8,11 +8,11 @@ let MainRouterConfig = {
             component : homeComponent
         },
         {
-            url:'#/home',
+            url:'index.html',
             component : homeComponent
         },
         {
-            url:'#/about',
+            url:'about.html',
             component : aboutComponent
         }
     ]

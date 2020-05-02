@@ -1,5 +1,5 @@
 {
-  "name": "001",
+  "name": "app",
   "version": "1.0.0",
   "description": "",
   "main": "webpack.config.js",
@@ -21,7 +21,7 @@
     "cordova-ios": "^5.1.1",
     "node-cmd": "^3.0.0",
     "sockjs-client": "^1.4.0",
-    "vn-native-js": "^1.0.6"
+    "vn-native-js": "^1.0.21"
   },
   "cordova": {
     "plugins": {
