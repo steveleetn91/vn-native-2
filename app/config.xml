@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.vnnative" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>Vn Native</name>
+    <name>Vn Native 2</name>
     <description>
         Vn Native Framework
     </description>
@@ -27,4 +27,13 @@
     <hook type="before_run" src="hooks/run.js"/>
     <hook type="before_build" src="hooks/build.js"/>
     <hook type="after_run" src="hooks/after_run.js"/>
+    <platform name="ios">
+        <preference name="WKWebViewOnly" value="true" />
+
+        <feature name="CDVWKWebViewEngine">
+            <param name="ios-package" value="CDVWKWebViewEngine" />
+        </feature>
+
+        <preference name="CordovaWebViewEngine" value="CDVWKWebViewEngine" />
+    </platform>
 </widget>

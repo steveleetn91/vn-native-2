@@ -8,10 +8,10 @@
   },
   "installed_plugins": {
     "cordova-plugin-whitelist": {
-      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+      "PACKAGE_NAME": "com.vnnative"
     },
     "cordova-plugin-wkwebview-engine": {
-      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+      "PACKAGE_NAME": "com.vnnative"
     }
   },
   "dependent_plugins": {}

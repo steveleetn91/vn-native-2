@@ -9,8 +9,4 @@ fs.readFile("./config.xml",(err,data) => {
     fs.writeFile('./config.xml', custom, 'utf8', function (err) {
         if (err) return console.log(err);
      });
-     /**
-      * Make template 
-      */
-     
 });
