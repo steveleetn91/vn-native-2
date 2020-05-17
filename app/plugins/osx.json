@@ -7,8 +7,7 @@
     "files": {}
   },
   "installed_plugins": {
-    "cordova-plugin-whitelist": {},
-    "cordova-plugin-wkwebview-engine": {}
+    "cordova-plugin-whitelist": {}
   },
   "dependent_plugins": {}
 }

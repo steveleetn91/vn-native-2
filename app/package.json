@@ -21,15 +21,13 @@
     "cordova-android": "^8.1.0",
     "cordova-ios": "^5.1.1",
     "cordova-osx": "^5.0.0",
-    "cordova-plugin-wkwebview-engine": "^1.2.1",
     "node-cmd": "^3.0.0",
     "sockjs-client": "^1.4.0",
     "vn-native-js": "^1.0.21"
   },
   "cordova": {
     "plugins": {
-      "cordova-plugin-whitelist": {},
-      "cordova-plugin-wkwebview-engine": {}
+      "cordova-plugin-whitelist": {}
     },
     "platforms": [
       "ios",
