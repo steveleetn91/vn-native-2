@@ -7,7 +7,7 @@
     <author email="hoang.le.tn91@gmail.com" href="">
         hoang.le.tn91@gmail.com
     </author>
-    <content src="index.html" />
+    <content src="http://localhost:9001" />
     <plugin name="cordova-plugin-whitelist" spec="1" />
     <allow-navigation href="*" />
     <access origin="*" />
@@ -36,4 +36,5 @@
 
         <preference name="CordovaWebViewEngine" value="CDVWKWebViewEngine" />
     </platform>
+    <preference name="AutoHideSplashScreen" value="true" />
 </widget>
