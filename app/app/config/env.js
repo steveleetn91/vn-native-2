@@ -1,5 +1,5 @@
 let config = new Object;
-config.env = 'prod'; // prod || env 
+config.env = 'dev'; // prod || dev 
 config.api = function(){
     return '';
 }
