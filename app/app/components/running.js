@@ -1,3 +1,4 @@
+import * as $ from '../library/jquery.min.js';
 import style from '../css/style.js';
 let runningUpdate = function(canvas){
     let times = 0;
