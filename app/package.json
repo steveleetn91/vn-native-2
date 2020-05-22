@@ -19,20 +19,26 @@
   "dependencies": {
     "cli": "^1.0.1",
     "cordova-android": "^8.1.0",
+    "cordova-browser": "^6.0.0",
     "cordova-ios": "^5.1.1",
     "cordova-osx": "^5.0.0",
+    "cordova-plugin-dialogs": "^2.0.2",
+    "cordova-plugin-wkwebview-engine": "^1.2.1",
     "node-cmd": "^3.0.0",
     "sockjs-client": "^1.4.0",
-    "vn-native-js": "^1.0.21"
+    "vn-native-js": "^1.0.48"
   },
   "cordova": {
     "plugins": {
-      "cordova-plugin-whitelist": {}
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-wkwebview-engine": {},
+      "cordova-plugin-dialogs": {}
     },
     "platforms": [
       "osx",
       "ios",
-      "android"
+      "android",
+      "browser"
     ]
   }
 }
