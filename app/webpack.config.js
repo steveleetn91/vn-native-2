@@ -12,7 +12,7 @@ const config = {
     compress: true,
     port: 9001
   },
-  
+  devtool: 'inline-source-map'
 };
 
 module.exports = config;
