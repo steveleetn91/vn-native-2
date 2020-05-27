@@ -5,7 +5,7 @@
   "main": "webpack.config.js",
   "scripts": {
     "test": "",
-    "build": "webpack --config vnnative.config.js",
+    "build": "webpack --config webpack.config.js",
     "start:dev": "webpack-dev-server"
   },
   "author": "",

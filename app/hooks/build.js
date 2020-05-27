@@ -1,5 +1,5 @@
 let fs = require('fs');
-let webpackConfig = require('../vnnative.config');
+let webpackConfig = require('../webpack.config');
 fs.readFile("./config.xml",(err,data) => {
     if (err) {
         return console.log(err);
