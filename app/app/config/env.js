@@ -4,6 +4,6 @@ config.api = function(){
     return '';
 }
 config.devSupport = {
-    "adressLocal" : "http://localhost:8000" // no change port , only change adress
+    "adressLocal" : "localhost" // localhost or ip
 }
 export default config;
