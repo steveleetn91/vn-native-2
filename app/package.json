@@ -2,7 +2,7 @@
   "name": "app",
   "version": "1.0.0",
   "description": "",
-  "main": "vnnative.config.js",
+  "main": "webpack.config.js",
   "scripts": {
     "test": "",
     "build": "webpack --config vnnative.config.js",
