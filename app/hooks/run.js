@@ -1,5 +1,5 @@
 let fs = require('fs');
-let webpackConfig = require('../webpack.config');
+let webpackConfig = require('../vnnative.config');
 var cmd = require('node-cmd');
 /**
  * Serve 
