@@ -1,3 +1,10 @@
+# Install 
+
+
+<code>npm i -g vn-native-2</code>
+
+https://www.npmjs.com/package/vn-native-2
+
 
 
 # Introduction 
