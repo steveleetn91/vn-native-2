@@ -1,4 +1,5 @@
 {
-    "homeIntro":"You can edit at : ./app/screen/home.js",
-    "aboutIntro":"You can edit at : ./app/screen/about.js"
+    "homeIntro":"You can edit at : ./app/screen/home.js \n\n",
+    "aboutIntro":"You can edit at : ./app/screen/about.js",
+    "layout_used":"Layout used bootstrap 4.5.2"
 }

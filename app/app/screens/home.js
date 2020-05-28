@@ -24,7 +24,10 @@ homeScreen.render = function(){
         content.cssObject({
                 padding:50
         });
-        content.content(lang.homeIntro);
+        let homeContent =  lang.homeIntro;
+        homeContent = homeContent + lang.layout_used;
+        content.content(homeContent);
+
         // about home link 
         let aboutLink = new componentObject();
         aboutLink.create('a');
