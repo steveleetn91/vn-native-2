@@ -22,7 +22,7 @@
     "cordova-plugin-wkwebview-engine": "^1.2.1",
     "node-cmd": "^3.0.0",
     "sockjs-client": "^1.4.0",
-    "vn-native-js": "^1.0.50"
+    "vn-native-js": "^1.0.53"
   },
   "cordova": {
     "plugins": {

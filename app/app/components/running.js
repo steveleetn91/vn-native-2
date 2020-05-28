@@ -1,5 +1,4 @@
-import * as $ from '../library/jquery.min.js';
-import style from '../css/style.js';
+import componentObject from 'vn-native-js/componentObject';
 let runningUpdate = function(canvas){
     let times = 0;
     let stringLoading = " .";
@@ -16,13 +15,15 @@ let runningUpdate = function(canvas){
         getContext.beginPath();
         getContext.font = "20px Arial";
         getContext.fillStyle = "green";
-        getContext.fillText("Runing " + stringLoading,window.innerWidth/2 - (26 + times),window.innerHeight/2 + 2);
-    },1000);
+        getContext.fillText("Runing " + stringLoading,window.innerWidth/2 - (26 + times),canvas.height/2 + 2);
+    },400);
 }
 let running = function(){
-    let canvas = document.createElement('canvas');
+    let create = new componentObject();
+    create.create('canvas');
+    let canvas = create.get();
     canvas.width = window.innerWidth;
-    canvas.height = window.innerHeight;
+    canvas.height = 150;
     runningUpdate(canvas);
     return canvas;
 }
