@@ -1,3 +1,16 @@
+
+# vn-native-2
+
+Vn native 2 Framework
+
+Vn Native 2 Framework to build android , ios , windows app , macos app, web
+
+# Note 
+
+You should install by documment , no git clone . This code has not code installing application . 
+
+
+
 # Install 
 
 
@@ -5,7 +18,9 @@
 
 https://www.npmjs.com/package/vn-native-2
 
+# docs
 
+English docs : https://vnnativeframework.club/v2/intro
 
 # Introduction 
 
@@ -26,15 +41,4 @@ The Author is Vietnamese but welcome all type of people to work together
 
 Framework us use plugin and library will be main branch , do focus develop about plugin to optimize product build, payment , face id , streaming, shopping cart ...
 You can develop plugin free or sell . we no manage about it .
-
-
-# vn-native-2
-
-Vn native 2 Framework
-
-Vn Native 2 Framework to build android , ios , windows app , macos app, web
-
-# docs
-
-English docs : https://vnnativeframework.club/v2/intro
 
