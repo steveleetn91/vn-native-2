@@ -18,13 +18,17 @@
   },
   "dependencies": {
     "cli": "^1.0.1",
+    "cordova-plugin-splashscreen": "^5.0.3",
+    "cordova-plugin-wkwebview-engine": "^1.2.1",
     "node-cmd": "^3.0.0",
     "sockjs-client": "^1.4.0",
-    "vn-native-js": "^1.0.60"
+    "vn-native-js": "^1.0.69"
   },
   "cordova": {
     "plugins": {
-      "cordova-plugin-whitelist": {}
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-wkwebview-engine": {},
+      "cordova-plugin-splashscreen": {}
     },
     "platforms": []
   }

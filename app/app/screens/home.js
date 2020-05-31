@@ -3,6 +3,7 @@ import componentObject from 'vn-native-js/componentObject';
 import header from '../components/header.js';
 import running from '../components/running.js';
 import AppEnv from '../config/env.js';
+import VnNativeJs from 'vn-native-js';
 let lang = require('../languages/en.json');
 /**
  * Native 
@@ -30,11 +31,16 @@ homeScreen.render = function(){
 
         // about home link 
         let aboutLink = new componentObject();
-        aboutLink.create('a');
+        aboutLink.create('button');
+        let vnnati = new VnNativeJs();
         aboutLink.attr('href','about.html');
-        aboutLink.content('About page');
+        aboutLink.attr('class','btn btn-danger');
+        aboutLink.object.addEventListener('click',() => {
+                vnnati.activeRoute({url:'about.html'});
+        });
+        aboutLink.content('Go to about');
         aboutLink.cssObject({
-                paddingLeft:50
+                marginLeft:50
         });
         // build 
         screen.childComponent(header());
