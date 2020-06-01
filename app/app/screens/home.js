@@ -35,7 +35,7 @@ homeScreen.render = function(){
         let vnnati = new VnNativeJs();
         aboutLink.attr('href','about.html');
         aboutLink.attr('class','btn btn-danger');
-        aboutLink.object.addEventListener('click',() => {
+        aboutLink.setEvent('click',() => {
                 vnnati.activeRoute({url:'about.html'});
         });
         aboutLink.content('Go to about');

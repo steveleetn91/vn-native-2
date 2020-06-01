@@ -9,7 +9,7 @@ const config = {
   devServer: {
     contentBase: path.join(__dirname, 'www'),
     compress: true,
-    port: 9001
+    port: 9000
   },
   devtool: 'inline-source-map'
 };
