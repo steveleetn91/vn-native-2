@@ -9,14 +9,6 @@ let lang = require('../languages/en.json');
  * Native 
  */
 VnNativeCore.setup(AppEnv.env,AppEnv.devSupport.adressLocal);
-
-setTimeout(() => { 
-        // VnNativeCore.screen.facebooksdk.login(["email"],(e) => {
-        //         alert(e); 
-        // },(e) => {
-        //         alert(e); 
-        // }); 
-},5000);
 /** 
  * Layout 
  */
