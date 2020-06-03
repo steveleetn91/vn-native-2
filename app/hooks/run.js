@@ -1,5 +1,5 @@
 let fs = require('fs');
-let webpackConfig = require('../webpack.config');
+let configJson = require('../app/config/config.json');
 var cmd = require('node-cmd');
 /**
  * Serve 
@@ -9,7 +9,8 @@ fs.readFile("./config.xml",(err,data) => {
         return console.log(err);
     }
     data = data.toString();
-    let custom = data.replace('index.html', 'http://localhost:' + webpackConfig.devServer.port);
+    let custom = data.replace('index.html', 'http://' + configJson.ip + ':' + configJson.port);
+    custom = custom.replace('http://localhost:' + configJson.port, 'http://' + configJson.ip + ':' + configJson.port);
     fs.writeFile('./config.xml', custom, 'utf8', function (err) {
         if (err) return console.log(err);
      });

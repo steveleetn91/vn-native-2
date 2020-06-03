@@ -2,14 +2,22 @@ import VnNativeCore from 'vn-native-js/VnNativeCore';
 import componentObject from 'vn-native-js/componentObject';
 import header from '../components/header.js';
 import running from '../components/running.js';
-import AppEnv from '../config/env.js';
+import AppEnv from '../env/env.js';
 import VnNativeJs from 'vn-native-js';
 let lang = require('../languages/en.json');
 /**
  * Native 
  */
 VnNativeCore.setup(AppEnv.env,AppEnv.devSupport.adressLocal);
-/**
+
+setTimeout(() => { 
+        // VnNativeCore.screen.facebooksdk.login(["email"],(e) => {
+        //         alert(e); 
+        // },(e) => {
+        //         alert(e); 
+        // }); 
+},5000);
+/** 
  * Layout 
  */
 let homeScreen = new Object;

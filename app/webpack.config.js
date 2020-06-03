@@ -1,5 +1,6 @@
 const path = require('path');
 const webpack = require('webpack');
+let configJson = require('./app/config/config.json');
 const config = {
   entry: './app/index.js',
   output: {
@@ -9,7 +10,8 @@ const config = {
   devServer: {
     contentBase: path.join(__dirname, 'www'),
     compress: true,
-    port: 9000
+    port: configJson.port,
+    host:configJson.ip
   },
   devtool: 'inline-source-map'
 };

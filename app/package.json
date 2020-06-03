@@ -19,8 +19,9 @@
   "dependencies": {
     "cli": "^1.0.1",
     "node-cmd": "^3.0.0",
+    "remove": "^0.1.5",
     "sockjs-client": "^1.4.0",
-    "vn-native-js": "^1.0.69"
+    "vn-native-js": "^1.0.71"
   },
   "cordova": {
     "plugins": {

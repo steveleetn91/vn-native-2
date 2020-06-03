@@ -1,5 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.vnnative" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.vnnative" version="1.0.0" 
+xmlns="http://www.w3.org/ns/widgets" 
+xmlns:cdv="http://cordova.apache.org/ns/1.0"
+xmlns:android="http://schemas.android.com/apk/res/android">
     <name>Vn Native 2</name>
     <description>
         Vn Native Framework
@@ -7,7 +10,7 @@
     <author email="hoang.le.tn91@gmail.com" href="">
         hoang.le.tn91@gmail.com
     </author>
-    <content src="index.html" />
+    <content src="http://localhost:9000" />
     <plugin name="cordova-plugin-whitelist" spec="1" />
     <allow-navigation href="*" />
     <access origin="*" />
@@ -38,4 +41,9 @@
     </platform>
     <preference name="SplashScreenDelay" value="3000"/>
     <preference name="SplashScreenBackgroundColor" value="0xFFFFFFFF"/>
+    <platform name="android">
+        <config-file target="AndroidManifest.xml" parent="/manifest">
+            <uses-permission android:name="android.permission.INTERNET"/>
+        </config-file>
+    </platform>
 </widget>
