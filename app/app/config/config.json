@@ -1,16 +1,9 @@
 {
-    "env":"dev",
+    "env":"prod",
     "ip":"localhost",
     "port":"9000",
     "api":{
         "dev":"",
         "prod":""
-    },
-    "facebook":{
-        "app_id":"",
-        "app_name":""
-    },
-    "google" : {
-
     }
 }

@@ -10,7 +10,7 @@ xmlns:android="http://schemas.android.com/apk/res/android">
     <author email="hoang.le.tn91@gmail.com" href="">
         hoang.le.tn91@gmail.com
     </author>
-    <content src="http://localhost:9000" />
+    <content src="index.html" />
     <plugin name="cordova-plugin-whitelist" spec="1" />
     <allow-navigation href="*" />
     <access origin="*" />
@@ -27,7 +27,6 @@ xmlns:android="http://schemas.android.com/apk/res/android">
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
     </platform>
-    <hook type="before_run" src="hooks/run.js"/>
     <hook type="before_build" src="hooks/build.js"/>
     <hook type="after_run" src="hooks/after_run.js"/>
     <platform name="ios">
