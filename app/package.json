@@ -20,7 +20,7 @@
     "node-cmd": "^3.0.0",
     "remove": "^0.1.5",
     "sockjs-client": "^1.4.0",
-    "vn-native-js": "^1.1.4"
+    "vn-native-js": "^1.1.7"
   },
   "cordova": {
     "plugins": {},
