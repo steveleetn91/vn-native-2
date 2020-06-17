@@ -4,7 +4,7 @@
   "description": "",
   "main": "webpack.config.js",
   "scripts": {
-    "test": "vn-native-2-project",
+    "test": "npm run build",
     "build": "webpack --config webpack.config.js --mode production",
     "start:dev": "webpack-dev-server"
   },
