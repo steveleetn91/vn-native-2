@@ -2,7 +2,6 @@ language: node_js
 install:
   - npm i -g vn-native-2
   - npm install
-  - npm run start:dev
   - npm install mocha -g
 test_script:
   - node --version
