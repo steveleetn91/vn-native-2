@@ -23,7 +23,8 @@
     "cli": "^1.0.1",
     "remove": "^0.1.5",
     "sockjs-client": "^1.4.0",
-    "vn-native-js": "^1.1.9"
+    "vn-native-js": "^1.1.9",
+    "websocket-extensions": "^0.1.4"
   },
   "cordova": {
     "plugins": {},
