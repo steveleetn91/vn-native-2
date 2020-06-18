@@ -21,7 +21,7 @@ https://www.npmjs.com/package/vn-native-2
 
 # docs
 
-English docs : https://vnnativeframework.club/v2/intro
+English docs : https://vnnativeframework.club
 
 # Introduction 
 
