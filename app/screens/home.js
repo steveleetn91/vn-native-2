@@ -1,7 +1,4 @@
 import componentObject from 'vn-native-js/componentObject';
-import header from '../components/header.js';
-import running from '../components/running.js';
-import VnNativeJs from 'vn-native-js';
 let lang = require('../languages/en.json');
 /**   
  * Layout  
@@ -10,37 +7,26 @@ let homeScreen = new Object;
 homeScreen.render = function(){
         let screen = new componentObject();
         screen.create();
+        screen.cssObject({
+                height: "100vh",
+                width: "100%",
+                justifyContent: "center",
+                textAlign:"center"
+        });
         /**
-         * Some information
-         */ 
-        let content = new componentObject();
-        content.create('section');
-        content.attr('class','container');
-        content.cssObject({
-                padding:50
+         * Logo 
+         */
+        let logo_height = 150;
+        let logo = new componentObject();
+        logo.create('img');
+        logo.attr('src','/img/logo_full.png');
+        logo.cssObject({
+                maxWidth: "100%",
+                marginTop:100,
+                marginTop: ( window.outerHeight / 2 ) - ( logo_height / 2 ),
+                height:logo_height
         });
-        let homeContent =  lang.homeIntro;
-        homeContent = homeContent + lang.layout_used;
-        content.content(homeContent);
-
-        // about home link 
-        let aboutLink = new componentObject();
-        aboutLink.create('button');
-        let vnnati = new VnNativeJs();
-        aboutLink.attr('href','about.html');
-        aboutLink.attr('class','btn btn-danger');
-        aboutLink.setEvent('click',() => {
-                vnnati.activeRoute({url:'about.html'});
-        });
-        aboutLink.content('Go to about');
-        aboutLink.cssObject({
-                marginLeft:50
-        });
-        // build 
-        screen.childComponent(header());
-        screen.childComponent(content.get());
-        screen.childComponent(aboutLink.get());
-        screen.childComponent(running());
+        screen.childComponent(logo.get());
         return screen.get();
 }
 export default homeScreen;

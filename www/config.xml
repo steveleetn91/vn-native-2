@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.vnnative" version="1.0.0" 
+<widget id="com.ilovevn" version="1.0.0" 
 xmlns="http://www.w3.org/ns/widgets" 
 xmlns:cdv="http://cordova.apache.org/ns/1.0"
 xmlns:android="http://schemas.android.com/apk/res/android">
-    <name>Vn Native 2</name>
+    <name>I Love Vn</name>
     <description>
         Vn Native Framework
     </description>
@@ -44,5 +44,8 @@ xmlns:android="http://schemas.android.com/apk/res/android">
         <config-file target="AndroidManifest.xml" parent="/manifest">
             <uses-permission android:name="android.permission.INTERNET"/>
         </config-file>
+        <edit-config file="app/src/main/AndroidManifest.xml" mode="merge" target="/manifest/application">
+            <application android:usesCleartextTraffic="true" />
+        </edit-config>
     </platform>
 </widget>
