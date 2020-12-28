@@ -4,3 +4,4 @@ platforms/osx
 platforms/windows
 platforms/ios
 platforms/android
+platforms/electron
